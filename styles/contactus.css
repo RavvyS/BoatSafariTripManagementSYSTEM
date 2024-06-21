@@ -1,0 +1,67 @@
+
+.contact-containter p{
+    margin-bottom: 20px;
+}
+.inline-container {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Even space between sections */
+    padding: 10px; /* Padding around the container */
+    margin-bottom: 20px;
+}
+
+.info-section {
+    width: 300px;
+    display: flex; /* Flexbox layout within each section */
+    flex-direction: column; /* Align icon-with-text and content vertically */
+    align-items: flex-start; /* Align content to the left */
+    margin-right: 10px; /* Space between sections */
+    border: none; /* Border around the section */
+    border-radius: 5px; 
+    padding: 10px; /* Padding inside the section */
+    box-shadow: 0 2px 4px rgba(105, 103, 99, 0.455);
+    background-color:rgb(97, 153, 183);
+    color: #fff;
+}
+
+.icon-with-text {
+    display: flex; /* Horizontal alignment for icon and text */
+    align-items: center; /* Align icon and text vertically */
+    gap: 10px; /* Space between icon and text */
+}
+
+
+.icon {
+    font-size: 24px; 
+}
+
+
+.icon-label {
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+.content {
+    margin-top: 5px; 
+    font-size: 14px; 
+}
+.contact-form label{
+    margin-bottom: 8px;
+}
+.contact-form input,.contact-form textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.contact-form .btn{
+    color: white;
+    background-color: rgb(17, 163, 87);
+    width: 100px;
+}
+.contact-form .btn:hover{
+    background-color: rgb(25, 198, 51);
+    cursor: pointer;
+}
+
+   /* {}  */

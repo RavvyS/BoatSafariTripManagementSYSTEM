@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+.container{
+  background-color: #ccc;
+  border-radius: 15px;
+}
+.content {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.content-inner {
+  background-color: #ccc;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: rgba(255, 255, 255, .15);
+backdrop-filter: blur(50px);
+}
+
+.content-inner header {
+  font-size: 40px;
+  font-family: Amasis MT Pro;
+  margin-bottom: 10px;
+}
+
+
+.field input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+    margin-bottom: 10px;
+
+}
+
+.field input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+width: 200px;
+}
+.field input[type="submit"]:hover{
+	background-color: blue;
+}
+
+
+.forgot a {
+  color: #333;
+  text-decoration: none;
+font-size: 15px;
+}
+.forgot a:hover{
+	color:blue;
+	
+}
+
+.line {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px;
+}
+
+.signup {
+  margin-top: 20px;
+font-size: 13px;
+}

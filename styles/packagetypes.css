@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+.package {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+}
+
+.package-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.package-info {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.package-info span {
+    font-weight: bold;
+}
+
+.package-description {
+    margin-top: 10px;
+}
+
+.package-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.package-footer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

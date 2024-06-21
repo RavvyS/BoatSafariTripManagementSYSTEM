@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .containersignup{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ccc;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    
+  }
+  
+  /* heading */
+  h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #202020;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="password"],
+  select {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  
+  input[type="submit"] {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /*To center align the "Create Account" button*/
+  .center-align{
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .message {
+      text-align: center;
+      margin-top: 10px;
+      color: #5f5b5b;
+  }
+  .log:hover{
+    color: blue;
+
+  }
+
+  

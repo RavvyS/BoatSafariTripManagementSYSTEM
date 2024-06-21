@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.package-container h2{
+    text-align: center;
+    color: rgb(82, 53, 15);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.decription h3{
+    font-size: 25px;
+}
+
+
+
+
+.card:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 1.5em;
+}
+
+.card p.price {
+    color: green;
+    font-size: 1.2em;
+}
+
+.card button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.card button:hover {
+    background-color: #218838;
+}
+
+.card-containeri {
+    margin:0px 200px 0px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distributes the cards evenly */
+}
+
+.card {
+    width: 40%; /* Adjust the width to fit three cards in a row */
+    margin-bottom: 20px; /* Add some space between rows */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+  

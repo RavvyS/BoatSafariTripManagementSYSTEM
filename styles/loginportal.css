@@ -1,0 +1,50 @@
+
+.container2{
+    background-color: #ccc;
+    border-radius: 15px;
+  }
+  .content2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .content-inner2 {
+    width: 350px;
+    background-color: #ccc;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(50px);
+  }
+  
+  .content-inner2 header {
+    font-size: 40px;
+    font-family: Amasis MT Pro;
+    margin-bottom: 10px;
+  }
+  .usert{
+    padding: 10px;
+    background-color: #4caf50;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.usert i{
+    color: white;
+}
+.usert:hover{
+    background-color: #45a049;
+    
+}
+.usert a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}

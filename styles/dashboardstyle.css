@@ -1,0 +1,61 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered table,
+.centered th,
+.centered td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.managedetails .centered table{
+    width: 100%;
+}
+.centered th,
+.centered td {
+    padding: 10px;
+    text-align: left;
+}
+
+.centered th {
+    background-color: #34495E;
+    color: #fff;
+}
+
+.centered button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #446fab;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#editButton:hover,
+#add:hover {
+    background-color: #1cca84;
+}
+
+#deleteButton:hover {
+    background-color: #e80d27;
+}
+
+.managedetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+#add {
+    background-color: #24055b;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
